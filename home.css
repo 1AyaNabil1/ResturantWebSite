@@ -1,0 +1,88 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+html {
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 12;
+    background-color: rgb(38, 38, 38,0.9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo img{
+    width: 200px;
+}
+.header .nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.header .nav ul {
+    display: flex;
+}
+.header .nav ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+    padding: 20px 35px 20px 40px;
+}
+.header .nav ul a:hover {
+    background: transparent;
+    color: rgb(206, 50, 50);
+}
+.landing {
+    min-height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+.landing .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 60%);
+  }
+.landing .text {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 81%;
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+  }
+.landing .text .content h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 83%;
+}
+.landing .text .content p {
+    font-family: 'Courier New', Courier, monospace;
+}
