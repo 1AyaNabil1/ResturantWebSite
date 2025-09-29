@@ -56,7 +56,7 @@
     width: 100%;  
     background-size: cover;  
     background-position: left; 
-     background-image: url("/assets/burger.png"); 
+     background-image: url("Frontend/assets/burger.png"); 
 } 
 .menu-container{ 
     width: 100%; 

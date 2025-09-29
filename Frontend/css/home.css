@@ -55,7 +55,7 @@ ul {
 }
 .landing {
     min-height: 100vh;
-    background-image: url("/assets/background.jpg");
+    background-image: url("Frontend/assets/background.jpg");
     background-size: cover;
 }
 .landing .overlay {
